@@ -23,7 +23,7 @@ prepend(&myNode, value);    // Adding.
 printList(myNode);          // After the adding.
 ```
 
-## linkedList content
+## linkedList & doubleLinkedList & circularLinkedList content
 - Node creation. ( createNode )
 - Print list values. ( printList )
 - Add a node to the beginning of the list. ( prepend )
@@ -32,3 +32,4 @@ printList(myNode);          // After the adding.
 - Remove the searched node in the list. ( deleteTheSelectionNode )
 - Add a node of the list end. ( append )
 - Remove the last node in the list. ( deleteTheLastNode )
+- (Only for circularLinkedList) Scroll the selected value at wanted number of steps. ( scrollOfValue )
