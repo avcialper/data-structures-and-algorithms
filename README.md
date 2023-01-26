@@ -22,3 +22,13 @@ printList(myNode);          // Before the adding.
 prepend(&myNode, value);    // Adding.
 printList(myNode);          // After the adding.
 ```
+
+## linkedList content
+- Node creation. ( createNode )
+- Print list values. ( printList )
+- Add a node to the beginning of the list. ( prepend )
+- Remove the first node in the list. ( deleteTheFirstNode )
+- Add a node to the desired location. ( insertion )
+- Remove the searched node in the list. ( deleteTheSelectionNode )
+- Add a node of the list end. ( append )
+- Remove the last node in the list. ( deleteTheLastNode )

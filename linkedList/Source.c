@@ -69,7 +69,7 @@ void append(struct node* head, int data) {
 	tmp->next = nodeToAdd;						// The tmp pointer is connected to the nodeToAdd node.
 }
 
-// Removing the last node in the list.
+// Remove the last node in the list.
 void deleteTheLastNode(struct node* head) {
 	struct node* tmp = head;					// Creating the pointer to follow node.	This pointer point the first node in the list.
 	while (tmp->next->next != NULL)				// This loop go to until the before at the list end.
