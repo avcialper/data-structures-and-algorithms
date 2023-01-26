@@ -1,4 +1,4 @@
- # data-structers-and-algorithms
+ # Data Structers And Algorithms
 If you want to test a method, choose a method and use it with print method created in the class. <br/>
 For example in a linkedList structures
 ```c
@@ -18,12 +18,13 @@ void prepend(struct node** head, int data) {
         (*head) = nodeToAdd;
 }
 
+// Inside of main method.
 printList(myNode);          // Before the adding.
 prepend(&myNode, value);    // Adding.
 printList(myNode);          // After the adding.
 ```
 
-## linkedList & doubleLinkedList & circularLinkedList content
+## linkedList & doubleLinkedList & circularLinkedList Content
 - Node creation. ( createNode )
 - Print list values. ( printList )
 - Add a node to the beginning of the list. ( prepend )
@@ -34,7 +35,7 @@ printList(myNode);          // After the adding.
 - Remove the last node in the list. ( deleteTheLastNode )
 - (Only for circularLinkedList) Scroll the selected value at wanted number of steps. ( scrollOfValue )
 
-## stackWithLinkedList
+## stackWithLinkedList & stackWithArray Content
 - Node creation. ( createNode )
 - Printing stack values. ( printStack )
 - Checking stack elements. ( isEmpty )

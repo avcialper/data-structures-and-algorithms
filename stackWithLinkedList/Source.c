@@ -25,7 +25,7 @@ void printStack(struct node* head) {
 	}
 }
 
-// Checking stack elements.
+// Checks the fullness of the stack
 int isEmpty(struct node* head){
 	return head == NULL;				// If the stack is empty returned 1 value.
 }
@@ -54,7 +54,7 @@ int findTheMaxValue(struct node* head) {
 	int maxValue = tmp->data;			// This element takes the added last elements value in the stack.
 	tmp = tmp->next;					// Set the pointer to the next node.
 	while (tmp != NULL) {
-		if (tmp->data > maxValue)		// This condition works if next item is greater than start items and maxValue is changed
+		if (tmp->data > maxValue)		// This condition works if next item is greater than start items and maxValue is changed.
 			maxValue = tmp->data;
 		tmp = tmp->next;
 	}
