@@ -48,6 +48,7 @@ int pop(struct node** head) {			// We will change the head position so we use do
 	return data;						// Return the received value.
 }
 
+// Finds the greatest element.
 int findTheMaxValue(struct node* head) {
 	struct node* tmp = head;			// Creating the pointer to follow node. This pointer point the added last element in the stack.
 	int maxValue = tmp->data;			// This element takes the added last elements value in the stack.

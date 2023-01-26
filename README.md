@@ -33,3 +33,11 @@ printList(myNode);          // After the adding.
 - Add a node of the list end. ( append )
 - Remove the last node in the list. ( deleteTheLastNode )
 - (Only for circularLinkedList) Scroll the selected value at wanted number of steps. ( scrollOfValue )
+
+## stackWithLinkedList
+- Node creation. ( createNode )
+- Printing stack values. ( printStack )
+- Checking stack elements. ( isEmpty )
+- Adding new value in the stack. ( push )
+- Remove element from stack. ( pop )
+- Finds the greatest element. ( findTheMaxValue )
