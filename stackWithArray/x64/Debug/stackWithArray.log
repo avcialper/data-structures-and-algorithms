@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\stackWithArray\Source.c(23,6): warning C4013: 'isEmpty' undefined; assuming extern returning int
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\stackWithArray\Source.c(44,12): warning C4098: 'push': 'void' function returning a value
+  stackWithArray.vcxproj -> C:\Users\alper\Desktop\dataStructersAndAlgorithms\stackWithArray\x64\Debug\stackWithArray.exe
