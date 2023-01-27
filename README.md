@@ -44,7 +44,7 @@ printList(myNode);          // After the adding.
 - Finds the greatest element. ( findTheMaxValue )
 
 ## factorialAndFibonacci Content
-These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file.
+These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file. <br/>
 Fibonacci steps:
 ```
         top stack        value1          value2          print           the last stack
@@ -54,3 +54,6 @@ Fibonacci steps:
 4-        3 - 2            3                2              2                 5 - 3
 5-        5 - 3            5                3              3                 8 - 5
 ```
+
+## reverseAString Content
+These methods use stack structures. In this file there are only explanations of reverse codes. Other method descriptions are in the stackWithArray file.

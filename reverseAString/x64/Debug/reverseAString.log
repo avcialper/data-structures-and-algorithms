@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\reverseAString\Source.c(35,3): warning C4033: 'pop' must return a value
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\reverseAString\Source.c(41,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\reverseAString\Source.c(37): warning C4715: 'pop': not all control paths return a value
+  reverseAString.vcxproj -> C:\Users\alper\Desktop\dataStructersAndAlgorithms\reverseAString\x64\Debug\reverseAString.exe
