@@ -24,7 +24,7 @@ prepend(&myNode, value);    // Adding.
 printList(myNode);          // After the adding.
 ```
 
-## linkedList & doubleLinkedList & circularLinkedList Content
+## linkedList & doubleLinkedList & circularLinkedList
 - Node creation. ( createNode )
 - Print list values. ( printList )
 - Add a node to the beginning of the list. ( prepend )
@@ -35,7 +35,7 @@ printList(myNode);          // After the adding.
 - Remove the last node in the list. ( deleteTheLastNode )
 - (Only for circularLinkedList) Scroll the selected value at wanted number of steps. ( scrollOfValue )
 
-## stackWithLinkedList & stackWithArray Content
+## stackWithLinkedList & stackWithArray
 - Node creation. ( createNode )
 - Printing stack values. ( printStack )
 - Checking stack elements. ( isEmpty )
@@ -43,7 +43,7 @@ printList(myNode);          // After the adding.
 - Remove element from stack. ( pop )
 - Finds the greatest element. ( findTheMaxValue )
 
-## factorialAndFibonacci Content
+## factorialAndFibonacci
 These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file. <br/>
 Fibonacci steps:
 ```
@@ -55,5 +55,24 @@ Fibonacci steps:
 5-        5 - 3            5                3              3                 8 - 5
 ```
 
-## reverseAString Content
+## reverseAString
 These methods use stack structures. In this file there are only explanations of reverse codes. Other method descriptions are in the stackWithArray file.
+
+## postfix
+These methods use stack structures. In this file there are only explanations of postfix (evPost) codes. Other method descriptions are in the stackWithArray file. 59-4+87++ postfix steps.
+```
+1-      push 5                          5
+2-      push 9                          9 5
+3-      - operator                      value1 = 9      value2 = 5      5 - 9 = -4
+        push -4                         -4
+4-      push 4                          4 -4
+5-      + operator                      value1 = 4      value2 = -4     -4 + 4 = 0
+        push 0                          0
+6-      push 8                          8 0
+7-      push 7                          7 8 0
+8-      + operator                      value1 = 7      value2 = 8      8 + 7 = 15
+        push 15                         15 0
+9-      + operator                      value1 = 15      value2 = 0     15 + 0 = 15
+        push 15                         15
+END     return 15
+```

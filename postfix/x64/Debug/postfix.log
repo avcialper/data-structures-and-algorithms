@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\postfix\Source.c(35,3): warning C4033: 'pop' must return a value
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\postfix\Source.c(41,15): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\alper\Desktop\dataStructersAndAlgorithms\postfix\Source.c(37): warning C4715: 'pop': not all control paths return a value
+  postfix.vcxproj -> C:\Users\alper\Desktop\dataStructersAndAlgorithms\postfix\x64\Debug\postfix.exe
