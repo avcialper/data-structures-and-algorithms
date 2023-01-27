@@ -42,3 +42,15 @@ printList(myNode);          // After the adding.
 - Adding new value in the stack. ( push )
 - Remove element from stack. ( pop )
 - Finds the greatest element. ( findTheMaxValue )
+
+## factorialAndFibonacci Content
+These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file.
+Fibonacci steps:
+```
+        top stack        value1          value2          print           the last stack
+1-        1 - 0            1                0              0                 1 - 1
+2-        1 - 1            1                1              1                 2 - 1
+3-        2 - 1            2                1              1                 3 - 2
+4-        3 - 2            3                2              2                 5 - 3
+5-        5 - 3            5                3              3                 8 - 5
+```
