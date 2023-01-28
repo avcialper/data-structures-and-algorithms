@@ -46,6 +46,7 @@ void push(struct stack* root, int data) {
 	root->array[root->top] = data;					// Sets value of the empty element in the array.
 }
 
+// Get element from stack.
 int pop(struct stack* root) {
 	if(isEmpty(root) == 1)							// This condition works if method returns 1 value.
 		return -1;

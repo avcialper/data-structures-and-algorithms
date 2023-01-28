@@ -1,0 +1,10 @@
+﻿  Source.c
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(22,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(23,32): warning C4047: '=': 'int' differs in levels of indirection from 'void *'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(29,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(30,29): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(36,29): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(68,3): warning C4033: 'dequeue' must return a value
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(70,33): warning C4047: '=': 'int' differs in levels of indirection from 'void *'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\Source.c(73): warning C4716: 'dequeue': must return a value
+  queue.vcxproj -> C:\Users\alper\Desktop\dataStructuresAndAlgorithms\queue\x64\Debug\queue.exe

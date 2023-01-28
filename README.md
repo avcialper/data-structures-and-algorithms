@@ -38,7 +38,7 @@ printList(myNode);          // After the adding.
 ## stackWithLinkedList & stackWithArray
 - Node creation. ( createNode )
 - Printing stack values. ( printStack )
-- Checking stack elements. ( isEmpty )
+- Checking stack elements. ( isEmpty/isFull )
 - Adding new value in the stack. ( push )
 - Remove element from stack. ( pop )
 - Finds the greatest element. ( findTheMaxValue )
@@ -47,7 +47,7 @@ printList(myNode);          // After the adding.
 These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file. <br/>
 Fibonacci steps:
 ```
-        top stack        value1          value2          print           the last stack
+       |top stack|     |value1|         |value2|        |print|         |the last stack|
 1-        1 - 0            1                0              0                 1 - 1
 2-        1 - 1            1                1              1                 2 - 1
 3-        2 - 1            2                1              1                 3 - 2
@@ -75,4 +75,26 @@ These methods use stack structures. In this file there are only explanations of 
 9-      + operator                      value1 = 15      value2 = 0     15 + 0 = 15
         push 15                         15
 END     return 15
+```
+
+## queue
+- Creating queue and assign capacity. ( createQueue )
+- Printing queue values. ( printQueue )
+- Checking queue elements. ( isEmpty/isFull )
+- Adding new value in the queue. ( enqueue )
+- Remove element from queue. ( dequeue )
+```
+Capacity = 3
+                 |front/rear|   
+enqueue(10)          10         NULL            NULL
+                   |front|     |rear|
+enqueue(20)          10          20             NULL
+                   |front|                     |rear|
+enqueue(30)          10          20              30
+                   |front|                     |rear|
+enqueue(40)          10          20              30             queue is full, 40 could not be added
+                               |front|         |rear|
+dequeue()           NULL         20              30
+                   |rear|      |front|
+enqueue(40)          40          20              30
 ```
