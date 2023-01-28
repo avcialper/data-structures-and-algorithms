@@ -59,7 +59,7 @@ Fibonacci steps:
 These methods use stack structures. In this file there are only explanations of reverse codes. Other method descriptions are in the stackWithArray file.
 
 ## postfix
-These methods use stack structures. In this file there are only explanations of postfix (evPost) codes. Other method descriptions are in the stackWithArray file. 59-4+87++ postfix steps.
+These methods use stack structures. In this file there are only explanations of postfix (evPost) codes. Other method descriptions are in the stackWithArray file. <br/> 59-4+87++ postfix steps.
 ```
 1-      push 5                          5
 2-      push 9                          9 5
