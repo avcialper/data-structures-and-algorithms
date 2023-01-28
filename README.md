@@ -103,3 +103,30 @@ dequeue()           NULL         20              30
                    |rear|      |front|
 enqueue(40)          40          20              30
 ```
+
+## queueWithStack
+The code contained in this file includes creating a queue with the help of the stack.
+```
+Capacity = 3    TOP ROOT STACK      SECOND STACK        THE LAST ROOT STACK   
+
+enqueue(10)         |    |             |    |                  |    |
+                    |    |             |    |                  |    |
+                    | 10 |             |    |                  | 10 |
+                    ------             ------                  ------
+
+enqueue(20)         |    |   10 ->     |    |     add 20       |    |
+                    |    |             |    |                  | 10 |
+                    | 10 |             | 10 |                  | 20 |
+                    ------             ------                  ------
+
+enqueue(30)         |    |   10 ->     |    |     add 30       | 10 |
+                    | 10 |   20 ->     | 20 |                  | 20 |
+                    | 20 |             | 10 |                  | 30 |
+                    ------             ------                  ------
+
+dequeue(20)         | 10 |             |    |     take 10      |    |
+                    | 20 |             |    |                  | 20 |
+                    | 30 |             |    |                  | 30 |
+                    ------             ------                  ------
+
+```
