@@ -1,0 +1,9 @@
+﻿  Source.c
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(77,3): warning C4033: 'deleteLeaves' must return a value
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(81,2): warning C4033: 'deleteLeaves' must return a value
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(109,9): warning C4013: 'findMaxValue' undefined; assuming extern returning int
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(119,5): error C2084: function 'int findMaxValue(int,int)' already has a body
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(112,5): message : see previous definition of 'findMaxValue'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(123,39): warning C4047: 'function': 'int' differs in levels of indirection from 'tree *'
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(123,33): warning C4024: 'findMaxValue': different types for formal and actual parameter 1
+C:\Users\alper\Desktop\dataStructuresAndAlgorithms\tree\Source.c(123,16): error C2198: 'findMaxValue': too few arguments for call

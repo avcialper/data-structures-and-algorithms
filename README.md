@@ -47,7 +47,7 @@ printList(myNode);          // After the adding.
 These methods use stack structures. In this file there are only explanations of fibonacci and factorial codes. Other method descriptions are in the stackWithArray file. <br/>
 Fibonacci steps:
 ```
-       |top stack|     |value1|         |value2|        |print|         |the last stack|
+     |previous stack|  |value1|         |value2|        |print|         |the last stack|
 1-        1 - 0            1                0              0                 1 - 1
 2-        1 - 1            1                1              1                 2 - 1
 3-        2 - 1            2                1              1                 3 - 2
@@ -59,7 +59,7 @@ Fibonacci steps:
 These methods use stack structures. In this file there are only explanations of reverse codes. Other method descriptions are in the stackWithArray file.
 
 ## postfix
-These methods use stack structures. In this file there are only explanations of postfix (evPost) codes. Other method descriptions are in the stackWithArray file. <br/> 59-4+87++ postfix steps.
+These methods use stack structures. In this file there are only explanations of postfix (evPost) codes. Other method descriptions are in the stackWithArray file. <br/> <br/> 59-4+87++ postfix steps.
 ```
 1-      push (5)                          5
 2-      push (9)                          9 5
@@ -98,7 +98,7 @@ enqueue(30)          10          20              30
 enqueue(40)          10          20              30             queue is full, 40 could not be added
 -----------------------------------------------------------
                                |front|         |rear|
-dequeue()           NULL         20              30
+dequeue( )           NULL         20              30
 -----------------------------------------------------------
                    |rear|      |front|
 enqueue(40)          40          20              30
@@ -130,3 +130,19 @@ dequeue( )          | 10 |             |    |     take 10      |    |
                     ------             ------                  ------
 
 ```
+
+## tree
+- Creating tree and assign value. ( createTree )
+- Pirnt left-head-right. ( inorder )
+- Print head-left-right. ( preorder )
+- Print left-right-head. ( postorder )
+- Add new leave of Binary Search Tree. ( insert )
+- Finds the wanted value in the Binary Search Tree. ( search )
+- Delete all items except head of the tree. ( deleteLeaves )
+- Fİnd the number of inner nodes. ( innerNodes )
+- Number of all elements of the tree. ( countNodes )
+- Find tree height. ( findTreeHeight )
+- Find max value. ( findMaxValue )
+- Delete all items in the tree. ( deleteTree ) <br/>
+<br/> Tree used in code. <br/>
+![tree](https://user-images.githubusercontent.com/90919011/215352872-d01b17a8-5dc2-496d-ad27-9221c7dc6c7f.png)
