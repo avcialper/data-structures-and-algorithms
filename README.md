@@ -145,4 +145,4 @@ dequeue( )          | 10 |             |    |     take 10      |    |
 - Find max value. ( findMaxValue )
 - Delete all items in the tree. ( deleteTree ) <br/>
 <br/> Tree used in code. <br/>
-![tree](https://user-images.githubusercontent.com/90919011/215352872-d01b17a8-5dc2-496d-ad27-9221c7dc6c7f.png)
+![tree](https://user-images.githubusercontent.com/90919011/215353319-1568b75a-4967-4da5-bfe3-f2d81fff2e72.png)
