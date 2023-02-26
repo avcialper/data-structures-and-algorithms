@@ -105,7 +105,7 @@ enqueue(40)          40          20              30
 ```
 
 ## queueWithStack
-The code contained in this file includes creating a queue with the help of the stack.
+In this file includes creating a queue with the help of the stack.
 ```
 Capacity = 3    TOP ROOT STACK      SECOND STACK        THE LAST ROOT STACK   
 
@@ -143,6 +143,6 @@ dequeue( )          | 10 |             |    |     take 10      |    |
 - Number of all elements of the tree. ( countNodes )
 - Find tree height. ( findTreeHeight )
 - Find max value. ( findMaxValue )
-- Delete all items in the tree. ( deleteTree ) <br/>
-<br/> Tree used in code. <br/>
+- Delete all items in the tree. ( deleteTree )<br/>
+<br/>Tree used in code. <br/>
 ![tree](https://user-images.githubusercontent.com/90919011/215353319-1568b75a-4967-4da5-bfe3-f2d81fff2e72.png)
